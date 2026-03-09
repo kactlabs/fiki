@@ -19,8 +19,18 @@ def extract_dish_info(filepath):
         name_match = re.search(r'^#\s+(.+?)$', content, re.MULTILINE)
         dish_name = name_match.group(1).strip() if name_match else os.path.basename(filepath)
         
+        # Clean up formatting issues:
+        # Remove markdown bold markers
+        dish_name = re.sub(r'\*\*(.+?)\*\*', r'\1', dish_name)
+        
+        # Fix mismatched brackets: ([Text] -> (Text)
+        dish_name = re.sub(r'\(\[(.+?)\](?!\))', r'(\1)', dish_name)
+        
         # Remove extra brackets from format like "Name ([Origin])" -> "Name (Origin)"
         dish_name = re.sub(r'\(\[(.+?)\]\)', r'(\1)', dish_name)
+        
+        # Clean up any remaining malformed brackets
+        dish_name = re.sub(r'\[([^\]]+)$', r'\1', dish_name)  # Unclosed [
         
         # Extract first description paragraph (after the heading)
         desc_match = re.search(r'^#.+?\n\n(.+?)(?:\n\n|---)', content, re.MULTILINE | re.DOTALL)

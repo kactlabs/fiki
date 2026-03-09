@@ -69,9 +69,15 @@ The recipe should follow this EXACT markdown format:
 
 / [Home](index.md)
 
-# [Dish Name] ([Origin/Description])
+# Dish Name (Origin/Description)
 
 [Brief 1-2 sentence description of the dish]
+
+IMPORTANT FORMATTING RULES:
+- The heading must be: # Dish Name (Origin)
+- Do NOT use bold markers (**) in the heading
+- Do NOT use brackets inside parentheses like ([Text])
+- Use simple format: # Pad Thai (Thai Stir-Fried Noodles)
 
 ---
 
