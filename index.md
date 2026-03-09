@@ -10,7 +10,7 @@ Welcome to the Food Wiki! Explore delicious recipes from around the world.
 - 2. [Beef Rendang (Malaysian/Indonesian Description)](002-beef-rendang.md)
 - 3. [Khinkali (Georgian Tradition)](003-khinkali.md)
 - 4. [Tagine with Chickpeas and Preserved Lemons (North African, Vegetarian)](004-tagine-with-chickpeas-and-preserved-lemons.md)
-- 5. [Bánh Xèo (Vietnamese Crispy Rice Flour Pancake) (Vietnamese Delicacy)](005-bánh-xèo.md)
+- 5. [Bánh Xèo (Vietnamese Crispy Rice Flour Pancake) (Vietnamese Delicacy)](005-banh-xeo.md)
 - 6. [Bulgogi (Korean BBQ Description)](006-bulgogi.md)
 - 7. [Jollof Rice (West African Description)](007-jollof-rice.md)
 - 8. [Chicken Katsu Curry (Japanese-Style)](008-chicken-katsu-curry.md)
