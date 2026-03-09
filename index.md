@@ -55,7 +55,19 @@ Welcome to the Food Wiki! Explore delicious recipes from around the world.
 47. [Jamaican Jerk Chicken with Grilled Pineapple and Coconut Rice (Caribbean)](047-jamaican-jerk-chicken-with-grilled-pineapple-and-coconut-rice.md)
 48. [Korean Japchae (Korean Stir-Fried Glass Noodles)](048-korean-japchae.md)
 49. [Ceviche de Camarones (Mexican Shrimp Cocktail)](049-ceviche-de-camarones.md)
+50. [Miso Glazed Salmon with Sesame Grits (Japanese Comfort Food)](050-miso-glazed-salmon-with-sesame-grits.md)
+51. [Samosas (Indian Fried or Baked Pastry Filled with Spiced Potatoes and Peas)](051-samosas.md)
+52. [Shashlik (Central Asian Skewered Meat)](052-shashlik.md)
+53. [Chicken Khebessa (Ethiopian Roasted Chicken)](053-chicken-khebessa.md)
+54. [Peruvian Ceviche Clásico (Peruvian Raw Fish Dish)](054-peruvian-ceviche-clasico.md)
+55. [Palak Paneer (Indian Spinach and Cheese Curry)](055-palak-paneer.md)
+56. [Beef and Mushroom Stew (Irish Comfort Food)](056-beef-and-mushroom-stew.md)
+57. [Dukkah (Egyptian Roasted Nut and Spice Mix)](057-dukkah.md)
+58. [Empanadas de Choclo (Chilean Corn Empanadas)](058-empanadas-de-choclo.md)
+59. [Plov (Central Asian Rice Dish)](059-plov.md)
+60. [Bhel Puri (Indian Savory Snack)](060-bhel-puri.md)
+61. [Bengali-Style Fish Curry (Bengal, India)](061-bengali-style-fish-curry.md)
 
 ---
 
-*Total Recipes: 49*
+*Total Recipes: 61*
