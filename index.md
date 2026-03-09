@@ -21,7 +21,17 @@ Welcome to the Food Wiki! Explore delicious recipes from around the world.
 - 13. [Jamaican Jerk Chicken (Traditional Caribbean dish)](013-jamaican-jerk-chicken.md)
 - 14. [Peruvian Lomo Saltado (Peruvian Stir-Fried Beef)](014-peruvian-lomo-saltado.md)
 - 15. [Jollof Rice with Grilled Sausage and Peppers (West African)](015-jollof-rice-with-grilled-sausage-and-peppers.md)
+- 16. [**Khinkali (Georgian Boiled Dumplings)** (Origin/Description)](016-khinkali.md)
+- 17. [Malai Kofta (Indian/Pakistani Origin)](017-malai-kofta.md)
+- 18. [Nepalese Dal Bhat (Lentil Soup with Steamed Rice)](018-nepalese-dal-bhat.md)
+- 19. [Manti (Uzbek/Traditional Central Asian)](019-manti.md)
+- 20. [Khachapuri (Georgian Bread) (Georgian/Description)](020-khachapuri.md)
+- 21. [Chicken Shawarma Wrap (Middle Eastern/Street Food)](021-chicken-shawarma-wrap.md)
+- 22. [**Kung Pao Chicken** (Chinese Sichuan dish)](022-kung-pao-chicken.md)
+- 23. [Bhuna Masala Beef Curry (Indian)](023-bhuna-masala-beef-curry.md)
+- 24. [**Gozleme** ([Turkish]](024-gozleme.md)
+- 25. [Spaghetti alla Carbonara (Italy)](025-spaghetti-alla-carbonara.md)
 
 ---
 
-*Total Recipes: 15*
+*Total Recipes: 25*
