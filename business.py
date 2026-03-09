@@ -9,15 +9,28 @@ import sys
 import os
 import re
 import subprocess
+import unicodedata
 from llm import get_llm
 
 
+def remove_accents(text):
+    """Remove accents and diacritics from text"""
+    # Normalize to NFD (decomposed form) and filter out combining characters
+    nfd = unicodedata.normalize('NFD', text)
+    return ''.join(char for char in nfd if unicodedata.category(char) != 'Mn')
+
+
 def sanitize_filename(name):
-    """Convert recipe name to valid filename format"""
+    """Convert recipe name to valid filename format without special characters"""
+    # Remove accents and convert to ASCII
+    name = remove_accents(name)
+    
     # Remove special characters and convert to lowercase
     name = re.sub(r'[^\w\s-]', '', name.lower())
+    
     # Replace spaces with hyphens
     name = re.sub(r'[-\s]+', '-', name)
+    
     return name.strip('-')
 
 
