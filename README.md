@@ -1,2 +1,2 @@
 
-# Wiki Template
+# Fiki - Food Wiki

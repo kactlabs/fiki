@@ -1,11 +1,7 @@
-# Wiki Template
+# Food Wiki
 
 Description
 
 ## Category :
 
-  * [1](1.md)
-
-
-
-
+* [1](1.md)
