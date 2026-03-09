@@ -31,7 +31,14 @@ Welcome to the Food Wiki! Explore delicious recipes from around the world.
 23. [Bhuna Masala Beef Curry (Indian)](023-bhuna-masala-beef-curry.md)
 24. [**Gozleme** ([Turkish]](024-gozleme.md)
 25. [Spaghetti alla Carbonara (Italy)](025-spaghetti-alla-carbonara.md)
+26. [Shakshuka (North African/Middle Eastern)](026-shakshuka.md)
+27. [Ethiopian Red Lentil Stew (Origin/Description)](027-ethiopian-red-lentil-stew.md)
+28. [Chicken Fricassee with Saffron Rice and Preserved Lemons (Origin/Cuisine: Moroccan)](028-chicken-fricassee-with-saffron-rice-and-preserved-lemons.md)
+29. [Dosa with Sambar and Coconut Chutney (South Indian)](029-dosa-with-sambar-and-coconut-chutney.md)
+30. [Moroccan Chicken Tagine with Olives and Preserved Lemons (Traditional North African Dish)](030-moroccan-chicken-tagine-with-olives-and-preserved-lemons.md)
+31. [**Khinkali** (Georgian Origin)](031-khinkali.md)
+32. [Thai Green Curry with Shrimp and Vegetables (Thai Cuisine)](032-thai-green-curry-with-shrimp-and-vegetables.md)
 
 ---
 
-*Total Recipes: 25*
+*Total Recipes: 32*
