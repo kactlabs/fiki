@@ -1,69 +1,64 @@
 / [Home](index.md)
 
-# Khinkali (Georgian Meat Dumplings) ([Origin/Cuisine])
+# Khinkali ([Georgian Tradition])
 
-Traditional Georgian dish made with boiled dumplings filled with spiced meat and herbs, served with a spicy ajika sauce.
+Khinkali are traditional Georgian dumplings filled with spiced meat and served with a side of tkemali, a sour cherry sauce.
 
 ---
 
 ## Ingredients
 
-### Meats
+### Filling
 - 500g **ground beef**
 - 250g **ground pork**
+- 1/2 teaspoon **salt**
+- 1/4 teaspoon **black pepper**
+- 1/4 teaspoon **cumin**
+- 1/4 teaspoon **coriander**
 
-### Vegetables
-- 1 large **onion**, finely chopped
-- 2 cloves of **garlic**, minced
-- 1 teaspoon **fresh dill**, chopped
-- 1 teaspoon **fresh parsley**, chopped
+### Pastry
+- 200g **all-purpose flour**
+- 100g **cold unsalted butter, cubed**
+- 1 egg, lightly beaten
 
-### Spices and Seasonings
-- 1 teaspoon **ground cumin**
-- 1/2 teaspoon **ground coriander**
-- 1/2 teaspoon **cayenne pepper**
-- Salt and black pepper, to taste
-
-### Dough
-- 250g **all-purpose flour**
-- 1 egg
-- 1 tablespoon **vegetable oil**
+### Tkemali Sauce
+- 500g **sour cherries (or substitute with cranberries)**
+- 250ml **white wine vinegar**
+- 2 tablespoons **granulated sugar**
 
 ---
 
-## Khinkali Sauce (Ajika)
+## Khinkali Sauce (if applicable)
 
 Mix the following:
 
-- 1 cup **red chili peppers**, seeded and chopped
-- 2 cloves of **garlic**, minced
-- 2 tablespoons **fresh cilantro**, chopped
-- 2 tablespoons **white vinegar**
-- 1 tablespoon **olive oil**
+- 50g **unsalted butter, melted**
+- 1 tablespoon **freshly squeezed lemon juice**
+- 1 teaspoon **Dijon mustard**
+- Salt and pepper to taste
 
 ---
 
 ## Recipe Steps
 
-### 1. Mixing the Filling
-Combine ground meats, onion, garlic, dill, parsley, cumin, coriander, cayenne pepper, salt, and black pepper in a large bowl. Mix well with your hands until just combined.
+### 1. Make the Pastry
+Combine flour and cubed butter in a bowl using your fingertips until mixture resembles coarse crumbs. Gradually add beaten egg, mixing with a fork until dough forms.
+
+### 2. Divide Dough into Small Balls
+Divide dough into 20 equal pieces. Roll each piece into a thin circle.
+
+### 3. Prepare Filling
+In a separate bowl, mix together ground meats and spices until well combined.
+
+### 4. Assemble Khinkali
+Place a tablespoon of filling in the center of each dough circle. Fold dough over to form a half-moon shape, then press edges to seal.
 
 ---
 
-### 2. Preparing the Dough
-In a separate bowl, combine flour, egg, and vegetable oil. Gradually mix the dough until it comes together in a ball. Knead for 5-7 minutes until smooth and elastic.
+## Optional: Spicy Variation
+
+Add 1-2 teaspoons **red pepper flakes** to the filling for an extra kick of heat.
 
 ---
 
-### 3. Assembling the Khinkali
-Divide the dough into small balls, about the size of a golf ball. Roll out each ball into a thin circle, about 1/8 inch thick. Place a tablespoon of filling in the center of each circle. Fold the dough over to form a half-moon shape and press edges together to seal.
-
----
-
-### 4. Boiling the Khinkali
-Bring a large pot of salted water to a boil. Carefully add the khinkali to the boiling water and cook for 5-7 minutes, or until they float to the surface.
-
----
-
-### 5. Serving with Ajika Sauce
-Serve the boiled khink
+Please note that Khinkali are traditionally steamed and served with tkemali sauce. If you prefer, you can pan-fry the khinkali until golden brown before serving.

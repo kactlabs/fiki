@@ -127,6 +127,27 @@ def extract_recipe_name(recipe_content):
     return f"recipe-{os.urandom(4).hex()}"
 
 
+def get_next_index():
+    """Get the next available index number by checking existing files"""
+    import glob
+    
+    pattern = '[0-9][0-9][0-9]-*.md'
+    existing_files = glob.glob(pattern)
+    
+    if not existing_files:
+        return 1
+    
+    # Extract all index numbers
+    indices = []
+    for filename in existing_files:
+        match = re.match(r'^(\d{3})-', filename)
+        if match:
+            indices.append(int(match.group(1)))
+    
+    # Return next index after the highest
+    return max(indices) + 1 if indices else 1
+
+
 def save_recipe(recipe_content, index):
     """Save recipe to a numbered markdown file"""
     # Extract recipe name for filename
@@ -180,8 +201,10 @@ def main():
     
     # Generate recipes
     created_files = []
-    for i in range(1, num_recipes + 1):
-        recipe_content = generate_recipe(llm, i, existing_dishes)
+    next_index = get_next_index()
+    
+    for i in range(num_recipes):
+        recipe_content = generate_recipe(llm, i + 1, existing_dishes)
         
         if recipe_content:
             # Extract dish name before saving
@@ -193,12 +216,13 @@ def main():
                 print()
                 continue
             
-            filename = save_recipe(recipe_content, i)
+            filename = save_recipe(recipe_content, next_index)
             if filename:
                 created_files.append(filename)
                 # Save dish name to tracking file
                 save_dish_name(dish_name)
                 existing_dishes.append(dish_name)
+                next_index += 1  # Increment for next recipe
         
         print()  # Blank line between recipes
     
