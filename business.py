@@ -20,8 +20,35 @@ def sanitize_filename(name):
     return name.strip('-')
 
 
-def generate_recipe(llm, recipe_number):
+def load_existing_dishes():
+    """Load existing dish names from unique_dishes.txt"""
+    if not os.path.exists('unique_dishes.txt'):
+        return []
+    
+    try:
+        with open('unique_dishes.txt', 'r', encoding='utf-8') as f:
+            return [line.strip() for line in f if line.strip()]
+    except Exception as e:
+        print(f"⚠️  Warning: Could not read unique_dishes.txt: {e}")
+        return []
+
+
+def save_dish_name(dish_name):
+    """Append dish name to unique_dishes.txt"""
+    try:
+        with open('unique_dishes.txt', 'a', encoding='utf-8') as f:
+            f.write(f"{dish_name}\n")
+    except Exception as e:
+        print(f"⚠️  Warning: Could not save to unique_dishes.txt: {e}")
+
+
+def generate_recipe(llm, recipe_number, existing_dishes):
     """Generate a single random recipe using LLM"""
+    
+    # Build exclusion list for prompt
+    exclusion_text = ""
+    if existing_dishes:
+        exclusion_text = f"\n\nDo NOT generate recipes for these dishes (already created):\n" + "\n".join(f"- {dish}" for dish in existing_dishes)
     
     prompt = f"""Generate a complete, detailed recipe for a random international dish. 
 The recipe should follow this EXACT markdown format:
@@ -79,7 +106,7 @@ Mix the following:
 ---
 
 Generate a unique, authentic recipe from any world cuisine. Make it detailed and practical.
-Do NOT include any explanatory text before or after the recipe. Output ONLY the markdown recipe."""
+Do NOT include any explanatory text before or after the recipe. Output ONLY the markdown recipe.{exclusion_text}"""
 
     try:
         print(f"🍳 Generating recipe {recipe_number}...")
@@ -137,6 +164,12 @@ def main():
     print("=" * 60)
     print()
     
+    # Load existing dishes to avoid duplicates
+    existing_dishes = load_existing_dishes()
+    if existing_dishes:
+        print(f"📋 Loaded {len(existing_dishes)} existing dish(es) to avoid duplicates")
+        print()
+    
     # Initialize LLM
     try:
         llm = get_llm()
@@ -147,12 +180,24 @@ def main():
     # Generate recipes
     created_files = []
     for i in range(1, num_recipes + 1):
-        recipe_content = generate_recipe(llm, i)
+        recipe_content = generate_recipe(llm, i, existing_dishes)
         
         if recipe_content:
+            # Extract dish name before saving
+            dish_name = extract_recipe_name(recipe_content)
+            
+            # Check if this dish already exists (case-insensitive)
+            if any(dish_name.lower() == existing.lower() for existing in existing_dishes):
+                print(f"⚠️  Skipping duplicate: {dish_name}")
+                print()
+                continue
+            
             filename = save_recipe(recipe_content, i)
             if filename:
                 created_files.append(filename)
+                # Save dish name to tracking file
+                save_dish_name(dish_name)
+                existing_dishes.append(dish_name)
         
         print()  # Blank line between recipes
     
