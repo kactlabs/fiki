@@ -54,11 +54,15 @@ def generate_index_content(recipe_files):
     if not recipe_files:
         content += "*No recipes available yet. Run `python business.py <number>` to generate recipes.*\n"
     else:
-        for i, filepath in enumerate(recipe_files, 1):
+        for filepath in recipe_files:
             dish_name, description = extract_dish_info(filepath)
             
-            # Create simple list entry: - index. dish name
-            content += f"- {i}. [{dish_name}]({filepath})\n"
+            # Extract the index number from filename (e.g., 001 from 001-dish.md)
+            index_match = re.match(r'^(\d{3})-', filepath)
+            index_num = int(index_match.group(1)) if index_match else 0
+            
+            # Create simple list entry: index. dish name (no dash)
+            content += f"{index_num}. [{dish_name}]({filepath})\n"
     
     content += "\n---\n\n"
     content += f"*Total Recipes: {len(recipe_files)}*\n"
