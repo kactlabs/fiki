@@ -51,16 +51,13 @@ def generate_index_content(recipe_files):
     if not recipe_files:
         content += "*No recipes available yet. Run `python business.py <number>` to generate recipes.*\n"
     else:
-        for filepath in recipe_files:
+        for i, filepath in enumerate(recipe_files, 1):
             dish_name, description = extract_dish_info(filepath)
             
-            # Create link entry
-            content += f"### [{dish_name}]({filepath})\n"
-            if description:
-                content += f"{description}\n"
-            content += "\n"
+            # Create simple list entry: - index. dish name
+            content += f"- {i}. [{dish_name}]({filepath})\n"
     
-    content += "---\n\n"
+    content += "\n---\n\n"
     content += f"*Total Recipes: {len(recipe_files)}*\n"
     
     return content

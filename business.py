@@ -8,6 +8,7 @@ Example: python business.py 3
 import sys
 import os
 import re
+import subprocess
 from llm import get_llm
 
 
@@ -207,6 +208,29 @@ def main():
     for filename in created_files:
         print(f"   📄 {filename}")
     print("=" * 60)
+    
+    # Update index.md automatically
+    if created_files:
+        print()
+        print("📚 Updating index.md...")
+        try:
+            result = subprocess.run([sys.executable, "indexer.py"], 
+                                   capture_output=True, 
+                                   text=True, 
+                                   timeout=30)
+            if result.returncode == 0:
+                print("✅ Index updated successfully!")
+            else:
+                print(f"⚠️  Warning: indexer.py returned error code {result.returncode}")
+                if result.stderr:
+                    print(f"   Error: {result.stderr}")
+        except subprocess.TimeoutExpired:
+            print("⚠️  Warning: indexer.py timed out")
+        except FileNotFoundError:
+            print("⚠️  Warning: indexer.py not found")
+        except Exception as e:
+            print(f"⚠️  Warning: Could not run indexer.py: {e}")
+        print("=" * 60)
 
 
 if __name__ == "__main__":
