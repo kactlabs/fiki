@@ -38,7 +38,24 @@ Welcome to the Food Wiki! Explore delicious recipes from around the world.
 30. [Moroccan Chicken Tagine with Olives and Preserved Lemons (Traditional North African Dish)](030-moroccan-chicken-tagine-with-olives-and-preserved-lemons.md)
 31. [Khinkali (Georgian Origin)](031-khinkali.md)
 32. [Thai Green Curry with Shrimp and Vegetables (Thai Cuisine)](032-thai-green-curry-with-shrimp-and-vegetables.md)
+33. [Indonesian Beef Rendang (Malay Beef Stew)](033-indonesian-beef-rendang.md)
+34. [Feijoada (Brazilian Bean Stew)](034-feijoada.md)
+35. [Chicken Vindaloo (Indian Spicy Curried Chicken)](035-chicken-vindaloo.md)
+36. [Jerk Chicken with Grilled Pineapple and Coconut Rice (Jamaican)](036-jerk-chicken-with-grilled-pineapple-and-coconut-rice.md)
+37. [Kibbeh Nabulsy (Lebanese Meatball Stuffed Grape Leaves)](037-kibbeh-nabulsy.md)
+38. [Peruvian Anticuchos (Grilled Beef Heart Skewers)](038-peruvian-anticuchos.md)
+39. [Jambalaya (Louisiana, American Creole)](039-jambalaya.md)
+40. [Beef Satay (Malaysian Grilled Meat Skewers)](040-beef-satay.md)
+41. [Bhuna Masala (Indian Spicy Mutton Curry)](041-bhuna-masala.md)
+42. [Sri Lankan Hoppers (Appam) (Sri Lankan Fermented Rice Flour Pancakes)](042-sri-lankan-hoppers.md)
+43. [Shish Taouk (Lebanese Chicken Skewers)](043-shish-taouk.md)
+44. [Saffron Risotto with Pan-Seared Duck Breast (Persian)](044-saffron-risotto-with-pan-seared-duck-breast.md)
+45. [Chicken Satay (Southeast Asian Grilled Chicken Skewers)](045-chicken-satay.md)
+46. [Thai Massaman Curry (Thai Stir-Fried Beef in Rich Curry Sauce)](046-thai-massaman-curry.md)
+47. [Jamaican Jerk Chicken with Grilled Pineapple and Coconut Rice (Caribbean)](047-jamaican-jerk-chicken-with-grilled-pineapple-and-coconut-rice.md)
+48. [Korean Japchae (Korean Stir-Fried Glass Noodles)](048-korean-japchae.md)
+49. [Ceviche de Camarones (Mexican Shrimp Cocktail)](049-ceviche-de-camarones.md)
 
 ---
 
-*Total Recipes: 32*
+*Total Recipes: 49*
