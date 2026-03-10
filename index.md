@@ -67,7 +67,26 @@ Welcome to the Food Wiki! Explore delicious recipes from around the world.
 59. [Plov (Central Asian Rice Dish)](059-plov.md)
 60. [Bhel Puri (Indian Savory Snack)](060-bhel-puri.md)
 61. [Bengali-Style Fish Curry (Bengal, India)](061-bengali-style-fish-curry.md)
+62. [Dhansak (Indian Stir-Fried Lentils and Meat)](062-dhansak.md)
+63. [Chicken Biryani (Indian Mixed Rice)](063-chicken-biryani.md)
+64. [Cypriot Grilled Lamb Kleftiko (Greek-Style Braised Lamb)](064-cypriot-grilled-lamb-kleftiko.md)
+65. [Arroz con Mariscos y Chorizo (Spanish Seafood and Sausage Rice)](065-arroz-con-mariscos-y-chorizo.md)
+66. [Arepas Colombianas (Colombian Cornmeal Cakes)](066-arepas-colombianas.md)
+67. [Jjimjilbang-Style Korean Rice Porridge (Korea/Comforting Soup)](067-jjimjilbang-style-korean-rice-porridge.md)
+68. [Gyeran-jjim (Korean Steamed Egg Custard)](068-gyeran-jjim.md)
+69. [Japanese Teriyaki Chicken Buns (Japanese-style BBQ Chicken Buns)](069-japanese-teriyaki-chicken-buns.md)
+70. [Aloo Gobi (Punjabi-Indian Potato and Cauliflower Curry)](070-aloo-gobi.md)
+71. [Dalmatia Stew (Croatian Hearty Meat and Vegetable Stew)](071-dalmatia-stew.md)
+72. [Indonesian Beef Rendang Masak Merah (Spicy Beef Rendang)](072-indonesian-beef-rendang-masak-merah.md)
+73. [Dish Name (Origin)](073-dish-name.md)
+74. [Chana Masala (North Indian Chickpea Curry)](074-chana-masala.md)
+75. [Shrikhand (Indian Sweet Yogurt Dessert)](075-shrikhand.md)
+76. [Georgian Khinkali (Boiled Dumplings with Spiced Meat Filling)](076-georgian-khinkali.md)
+77. [Xacuti (Goan Lamb Curry)](077-xacuti.md)
+78. [Tabbouleh (Middle Eastern Salad)](078-tabbouleh.md)
+79. [Palawachan (Sri Lankan Coconut Rice and Lamb Curry)](079-palawachan.md)
+80. [Focaccia alla Genovese (Genovese Flatbread)](080-focaccia-alla-genovese.md)
 
 ---
 
-*Total Recipes: 61*
+*Total Recipes: 80*
