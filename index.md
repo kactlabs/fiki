@@ -86,7 +86,32 @@ Welcome to the Food Wiki! Explore delicious recipes from around the world.
 78. [Tabbouleh (Middle Eastern Salad)](078-tabbouleh.md)
 79. [Palawachan (Sri Lankan Coconut Rice and Lamb Curry)](079-palawachan.md)
 80. [Focaccia alla Genovese (Genovese Flatbread)](080-focaccia-alla-genovese.md)
+81. [Biryani (South Asian Mixed Rice Dish)](081-biryani.md)
+82. [Chicken Korma (Indian Creamy Chicken Curry)](082-chicken-korma.md)
+83. [Sannakji (Korean Raw Squid with Salt)](083-sannakji.md)
+84. [Chicken Mchuzi (Tanzanian Stewed Chicken)](084-chicken-mchuzi.md)
+85. [Shu Mai (Chinese Steamed Dumplings with Pork and Shrimp)](085-shu-mai.md)
+86. [Moroccan Tagine with Olives and Preserved Lemons (Moroccan Stew)](086-moroccan-tagine-with-olives-and-preserved-lemons.md)
+87. [Vietnamese Banh Bot Loc (Vietnamese Miniature Dumplings)](087-vietnamese-banh-bot-loc.md)
+88. [Dürüm (Turkish Stuffed Sausage)](088-durum.md)
+89. [Djedda (Sudanese Stewed Meat and Vegetables)](089-djedda.md)
+90. [Fufu with Fish Soup (Central African)](090-fufu-with-fish-soup.md)
+91. [Tandoori Chana Masala (Indian North Indian Chickpea Curry)](091-tandoori-chana-masala.md)
+92. [Shisanyama (South African Braai)](092-shisanyama.md)
+93. [Chicken Tikka Kebabs (Indian Grilled Chicken Skewers)](093-chicken-tikka-kebabs.md)
+94. [Peri Peri Chicken (Mozambican Spicy Chicken)](094-peri-peri-chicken.md)
+95. [Tagine with Chicken, Apricots, and Almonds (Moroccan)](095-tagine-with-chicken-apricots-and-almonds.md)
+96. [Feijoada de Carne (Brazilian Beef and Bean Stew)](096-feijoada-de-carne.md)
+97. [Dosa (Indian Fermented Rice and Lentil Crepes)](097-dosa.md)
+98. [Maqlooba (Jordanian Stuffed Rice Pilaf)](098-maqlooba.md)
+99. [Gormet Etti (Ethiopian Braised Lamb Shanks)](099-gormet-etti.md)
+100. [Maqluba (Middle Eastern Upside-Down Rice)](100-maqluba.md)
+101. [Jamaican Jerk Chicken Wrap (Jamaican)](101-jamaican-jerk-chicken-wrap.md)
+102. [Fesenjan (Persian Chicken Stew)](102-fesenjan.md)
+103. [Shrimp and Vegetable Skewers with Peanut Sauce (Cambodian)](103-shrimp-and-vegetable-skewers-with-peanut-sauce.md)
+104. [Ethiopian Injera (Ethiopian Sour Flatbread)](104-ethiopian-injera.md)
+105. [Chicken Kofta Shawarma (Turkish Street Food)](105-chicken-kofta-shawarma.md)
 
 ---
 
-*Total Recipes: 80*
+*Total Recipes: 105*
