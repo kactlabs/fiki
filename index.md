@@ -119,7 +119,12 @@ Welcome to the Food Wiki! Explore delicious recipes from around the world.
 111. [Shurpa (Central Asian Beef Soup)](111-shurpa.md)
 112. [Chakchouka (North African Stewed Eggs and Tomatoes)](112-chakchouka.md)
 113. [Baidaoush (Egyptian Ful Medames with Garlic and Lemon)](113-baidaoush.md)
+114. [Saffron Paella (Spanish Rice Dish with Seafood and Sausage)](114-saffron-paella.md)
+115. [Ceviche Clásico (Peruvian Raw Fish Dish)](115-ceviche-clasico.md)
+116. [Dhima Pitha (Bengali Sweet Rice Cake)](116-dhima-pitha.md)
+117. [Momo (Nepali Steamed Dumplings)](117-momo.md)
+118. [Jjimjilbang-Style Korean Rice Porridge with Spicy Pork and Vegetables (Korean)](118-jjimjilbang-style-korean-rice-porridge-with-spicy-pork-and-vegetables.md)
 
 ---
 
-*Total Recipes: 113*
+*Total Recipes: 118*
