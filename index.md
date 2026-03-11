@@ -124,7 +124,10 @@ Welcome to the Food Wiki! Explore delicious recipes from around the world.
 116. [Dhima Pitha (Bengali Sweet Rice Cake)](116-dhima-pitha.md)
 117. [Momo (Nepali Steamed Dumplings)](117-momo.md)
 118. [Jjimjilbang-Style Korean Rice Porridge with Spicy Pork and Vegetables (Korean)](118-jjimjilbang-style-korean-rice-porridge-with-spicy-pork-and-vegetables.md)
+119. [Chicken Gormet (Ethiopian Braised Chicken)](119-chicken-gormet.md)
+120. [Tagine with Olives and Preserved Lemons (Moroccan Stew)](120-tagine-with-olives-and-preserved-lemons.md)
+121. [Chicken Fricassee (French)](121-chicken-fricassee.md)
 
 ---
 
-*Total Recipes: 118*
+*Total Recipes: 121*
