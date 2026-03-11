@@ -127,7 +127,9 @@ Welcome to the Food Wiki! Explore delicious recipes from around the world.
 119. [Chicken Gormet (Ethiopian Braised Chicken)](119-chicken-gormet.md)
 120. [Tagine with Olives and Preserved Lemons (Moroccan Stew)](120-tagine-with-olives-and-preserved-lemons.md)
 121. [Chicken Fricassee (French)](121-chicken-fricassee.md)
+122. [Dresdner Strudel (German Fruit Pastry)](122-dresdner-strudel.md)
+123. [Chicken Tandoori (Indian Marinated Chicken in Clay Oven)](123-chicken-tandoori.md)
 
 ---
 
-*Total Recipes: 121*
+*Total Recipes: 123*
