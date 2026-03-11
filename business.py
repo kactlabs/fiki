@@ -10,6 +10,7 @@ import os
 import re
 import subprocess
 import unicodedata
+import csv
 from datetime import datetime
 from llm import get_llm
 
@@ -147,6 +148,56 @@ def extract_recipe_name(recipe_content):
     return f"recipe-{os.urandom(4).hex()}"
 
 
+def get_next_iteration_index():
+    """Get the next iteration index from CSV file"""
+    csv_file = 'iteration_details.csv'
+    
+    if not os.path.exists(csv_file):
+        return 1
+    
+    try:
+        with open(csv_file, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            rows = list(reader)
+            if rows:
+                last_index = int(rows[-1]['index'])
+                return last_index + 1
+    except Exception as e:
+        print(f"⚠️  Warning: Could not read iteration_details.csv: {e}")
+    
+    return 1
+
+
+def save_iteration_details(iteration_index, batch_count, total_created, duplicates_count, llm_provider, llm_model):
+    """Save iteration details to CSV file"""
+    csv_file = 'iteration_details.csv'
+    file_exists = os.path.exists(csv_file)
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    try:
+        with open(csv_file, 'a', newline='', encoding='utf-8') as f:
+            fieldnames = ['index', 'batch_count', 'total', 'duplicates_count', 'model', 'updated_time']
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            
+            # Write header if file is new
+            if not file_exists:
+                writer.writeheader()
+            
+            # Write iteration data
+            writer.writerow({
+                'index': iteration_index,
+                'batch_count': batch_count,
+                'total': total_created,
+                'duplicates_count': duplicates_count,
+                'model': f"{llm_provider}-{llm_model}",
+                'updated_time': current_time
+            })
+        
+        print(f"📊 Iteration details saved to {csv_file}")
+    except Exception as e:
+        print(f"⚠️  Warning: Could not save iteration details: {e}")
+
+
 def get_next_index():
     """Get the next available index number by checking existing files"""
     import glob
@@ -250,7 +301,9 @@ def main():
     
     # Generate recipes
     created_files = []
+    duplicates_skipped = 0
     next_index = get_next_index()
+    iteration_index = get_next_iteration_index()
     
     for i in range(num_recipes):
         recipe_content = generate_recipe(llm, i + 1, existing_dishes)
@@ -262,6 +315,7 @@ def main():
             # Check if this dish already exists (case-insensitive)
             if any(dish_name.lower() == existing.lower() for existing in existing_dishes):
                 print(f"⚠️  Skipping duplicate: {dish_name}")
+                duplicates_skipped += 1
                 print()
                 continue
             
@@ -280,7 +334,13 @@ def main():
     print(f"✨ Successfully created {len(created_files)} recipe file(s):")
     for filename in created_files:
         print(f"   📄 {filename}")
+    if duplicates_skipped > 0:
+        print(f"\n⚠️  Skipped {duplicates_skipped} duplicate(s)")
     print("=" * 60)
+    
+    # Save iteration details to CSV
+    save_iteration_details(iteration_index, num_recipes, len(created_files), duplicates_skipped, llm_provider, llm_model)
+    print()
     
     # Update index.md automatically
     if created_files:

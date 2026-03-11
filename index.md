@@ -111,7 +111,12 @@ Welcome to the Food Wiki! Explore delicious recipes from around the world.
 103. [Shrimp and Vegetable Skewers with Peanut Sauce (Cambodian)](103-shrimp-and-vegetable-skewers-with-peanut-sauce.md)
 104. [Ethiopian Injera (Ethiopian Sour Flatbread)](104-ethiopian-injera.md)
 105. [Chicken Kofta Shawarma (Turkish Street Food)](105-chicken-kofta-shawarma.md)
+106. [Doppio (Italian Coffee)](106-doppio.md)
+107. [Stuffed Grape Leaves (Dolmas) (Turkish Appetizer)](107-stuffed-grape-leaves.md)
+108. [Gheeyab (Afghanistan)](108-gheeyab.md)
+109. [Arepa de Queso con Carne Mechada (Colombian Cheese and Shredded Beef Sandwich)](109-arepa-de-queso-con-carne-mechada.md)
+110. [Empanadas Colombianas (Colombian Meat Pies)](110-empanadas-colombianas.md)
 
 ---
 
-*Total Recipes: 105*
+*Total Recipes: 110*
