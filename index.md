@@ -116,7 +116,10 @@ Welcome to the Food Wiki! Explore delicious recipes from around the world.
 108. [Gheeyab (Afghanistan)](108-gheeyab.md)
 109. [Arepa de Queso con Carne Mechada (Colombian Cheese and Shredded Beef Sandwich)](109-arepa-de-queso-con-carne-mechada.md)
 110. [Empanadas Colombianas (Colombian Meat Pies)](110-empanadas-colombianas.md)
+111. [Shurpa (Central Asian Beef Soup)](111-shurpa.md)
+112. [Chakchouka (North African Stewed Eggs and Tomatoes)](112-chakchouka.md)
+113. [Baidaoush (Egyptian Ful Medames with Garlic and Lemon)](113-baidaoush.md)
 
 ---
 
-*Total Recipes: 110*
+*Total Recipes: 113*

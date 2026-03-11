@@ -168,7 +168,16 @@ def get_next_iteration_index():
     return 1
 
 
-def save_iteration_details(iteration_index, batch_count, total_created, duplicates_count, llm_provider, llm_model):
+def get_total_recipes():
+    """Get total number of recipe files generated so far"""
+    import glob
+    
+    pattern = '[0-9][0-9][0-9]-*.md'
+    existing_files = glob.glob(pattern)
+    return len(existing_files)
+
+
+def save_iteration_details(iteration_index, batch_count, total_recipes, duplicates_count, llm_provider, llm_model):
     """Save iteration details to CSV file"""
     csv_file = 'iteration_details.csv'
     file_exists = os.path.exists(csv_file)
@@ -187,7 +196,7 @@ def save_iteration_details(iteration_index, batch_count, total_created, duplicat
             writer.writerow({
                 'index': iteration_index,
                 'batch_count': batch_count,
-                'total': total_created,
+                'total': total_recipes,
                 'duplicates_count': duplicates_count,
                 'model': f"{llm_provider}-{llm_model}",
                 'updated_time': current_time
@@ -338,8 +347,11 @@ def main():
         print(f"\n⚠️  Skipped {duplicates_skipped} duplicate(s)")
     print("=" * 60)
     
+    # Get total recipes count after generation
+    total_recipes = get_total_recipes()
+    
     # Save iteration details to CSV
-    save_iteration_details(iteration_index, num_recipes, len(created_files), duplicates_skipped, llm_provider, llm_model)
+    save_iteration_details(iteration_index, num_recipes, total_recipes, duplicates_skipped, llm_provider, llm_model)
     print()
     
     # Update index.md automatically
