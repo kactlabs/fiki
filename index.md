@@ -129,7 +129,20 @@ Welcome to the Food Wiki! Explore delicious recipes from around the world.
 121. [Chicken Fricassee (French)](121-chicken-fricassee.md)
 122. [Dresdner Strudel (German Fruit Pastry)](122-dresdner-strudel.md)
 123. [Chicken Tandoori (Indian Marinated Chicken in Clay Oven)](123-chicken-tandoori.md)
+124. [Doodhpuri (Bengali-Style Fried Doughnuts)](124-doodhpuri.md)
+125. [Peri Peri Chicken Wrap (South African)](125-peri-peri-chicken-wrap.md)
+126. [Dushpula (Nepali Stuffed Momo)](126-dushpula.md)
+127. [Lapsang Souchong Smoked Lamb Kebabs (Chinese)](127-lapsang-souchong-smoked-lamb-kebabs.md)
+128. [Jeyuk Bokkeum (Korean Stir-Fried Pork with Vegetables)](128-jeyuk-bokkeum.md)
+129. [Tagine with Chorizo, Olives, and Preserved Lemons (Moroccan)](129-tagine-with-chorizo-olives-and-preserved-lemons.md)
+130. [Gochujang Jjim (Korean Fermented Soybean Paste Stew)](130-gochujang-jjim.md)
+131. [Dishes from Around the World](131-dishes-from-around-the-world.md)
+132. [Tagine of Chicken, Apricots, and Almonds (Moroccan)](132-tagine-of-chicken-apricots-and-almonds.md)
+133. [Empanadas de Queso con Carne Mechada (Colombian Cheese and Beef Meat Pies)](133-empanadas-de-queso-con-carne-mechada.md)
+134. [Sambusa (Ethiopian Fried or Baked Pastry)](134-sambusa.md)
+135. [Turkish Doner Kebab (Doner Kebap) (Turkish Meat Pies)](135-turkish-doner-kebab.md)
+136. [Cullen Skink (Scottish Smoked Haddock Chowder)](136-cullen-skink.md)
 
 ---
 
-*Total Recipes: 123*
+*Total Recipes: 136*
